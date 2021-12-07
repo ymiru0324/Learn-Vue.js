@@ -11,3 +11,5 @@
 * [Basic-Vue_08](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_08.html) : 클래스 & 스타일 바인딩   
 * [Basic-Vue_09](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_09.html) : v-if 와 v-show   
 * [Basic-Vue_10](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_10.html) : v-for 리스트 렌더링   
+* [Basic-Vue_11](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_11.html) : 여러개의 Vue 인스턴스 사용하기   
+* [Basic-Vue_12](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_12.html) : Vue 컴포넌트   
