@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic-Vue_06_Computed 속성</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="changeMessage">Clcik</button>
+        {{ reversedMessage }}
+        {{ reversedMessage }}
+        {{ reversedMessage }}
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: '헬로우' // 하나 하나 String 값으로 분리 후 array에 담아 준 다음 reverse로 순서 변경 후 join으로 다시 하나의 String으로 합침
+            },
+            methods: {
+                changeMessage() { // 버튼 클릭시 message에 테스트가 들어감
+                    this.message = '테스트';
+                }
+                // reversedMessage() {
+                //     return this.message.split('').reverse().join('');
+                // }
+                // methods로 사용할 경우 함수 값을 {{ reversedMessage() }} 로 설정한다.
+            },
+            // computed를 사용하는 이유는 computed는 캐싱 기능이 있지만 methods는 그렇지 않음
+            computed: { // computed 중복 제거의 효과도 있음
+                reversedMessage() {
+                    return this.message.split('').reverse().join('');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

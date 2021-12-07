@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic-Vue_04_이벤트 (Events)</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <form v-on:submit="submit">
+            <input type="text"><br>
+            <button type="submit">Submit</button>
+        </form><br>
+
+        preevent
+        <form v-on:submit.prevent="submit">
+            <input type="text"><br>
+            <button type="submit">Submit</button>
+        </form><br>
+
+        {{ year }} <br>
+        <button v-on:click="plus">더하기</button>
+        <button v-on:click="minus">빼기</button>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                year: 2022
+            },
+            methods: {
+               plus(){
+                   this.year++;
+               },
+               minus(){
+                   this.year--;
+               },
+               submit(){ // 페이지 리로드
+                   alert('submitted');
+                   console.log('hello');
+               }
+            }
+        })
+    </script>
+</body>
+</html>
