@@ -2,8 +2,6 @@
 ## [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js)
 * Vue.js 기초 익히기
 
-# test1
-
 ## Project setup
 ```
 npm install
