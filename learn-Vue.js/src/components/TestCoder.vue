@@ -1,15 +1,29 @@
 <template>
     <div>
-        <p>{{ name }}</p><br>
-        <button @click="updateName">Change Name</button>
+        <p>Header</p>
+        <slot name="header" :test="test"></slot>
+        <p>Body</p>
+        <slot></slot>        
+        <p>footer</p>
     </div>
 </template>
 
 <script>
 export default {
+    props: {
+        title: {
+            type: String,
+            default: 'default title'
+        },
+        name: {
+            type: String,
+            default: 'default name'
+        }
+    },
     data() {
         return {
-             name: 'Test Coder',
+            test: 'coder'
+             // name: 'Test Coder',
         }
     },
 
