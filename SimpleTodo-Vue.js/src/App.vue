@@ -5,6 +5,7 @@
     <AddTodo />
     <hr>
     <TodoList />
+    <UserList />
   </div>
 </template>
 
@@ -12,23 +13,25 @@
 import TodoList from '@/components/TodoList.vue';
 import AddTodo from '@/components/AddTodo.vue';
 import CompletedTodo from '@/components/CompletedTodo.vue';
+import UserList from '@/components/UserList.vue';
 
 export default {
   components: {
     TodoList,
     AddTodo,
-    CompletedTodo
+    CompletedTodo,
+    UserList
   },
-  data() {
-    return {
-      todoText: '',
+  // data() {
+  //   return {
+  //     todoText: '',
       // todos: [
       //   { id: 1, text: 'buy a car', checked: false },
       //   { id: 2, text: 'play game', checked: false },
       // ]
-    }
-  },
-  methods: {
+  //   }
+  // },
+  // methods: {
     // deleteTodo(id) {
       // const index = this.todos.findIndex(todo => {
       //   return todo.id == id;
@@ -50,6 +53,6 @@ export default {
     //   });
     //   this.todos[index].checked = checked;
     // }
-  }
+  // }
 }
 </script>
