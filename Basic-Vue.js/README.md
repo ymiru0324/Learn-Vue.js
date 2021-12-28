@@ -1,5 +1,4 @@
-# [learn-Vue.js](https://github.com/ymiru0324/learn-Vue.js)
-## [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js)
+# [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js)
 
 * [Basic-Vue_01](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_01.html) : Vue 인스턴스 생성   
 * [Basic-Vue_02](https://github.com/ymiru0324/learn-Vue.js/blob/main/Basic-Vue.js/Basic-Vue_02.html) : Vue 데이터와 메소드   
