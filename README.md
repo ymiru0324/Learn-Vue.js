@@ -1,4 +1,4 @@
-# [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js) / [learn-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/learn-Vue.js)   
+# [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js)
 * [Vue.js 2 기초 익히기](https://youtube.com/playlist?list=PLB7CpjPWqHOtYP7P_0Ls9XNed0NLvmkAh)
 # [SimpleTodo-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/SimpleTodo-Vue.js)
 * 간단한 Todo 구현   
