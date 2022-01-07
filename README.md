@@ -1,5 +1,5 @@
 # [Basic-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/Basic-Vue.js)
-* [Vue.js 2 기초 익히기](https://youtube.com/playlist?list=PLB7CpjPWqHOtYP7P_0Ls9XNed0NLvmkAh)
+* [Vue.js 기초 익히기](https://youtube.com/playlist?list=PLB7CpjPWqHOtYP7P_0Ls9XNed0NLvmkAh)
 # [Learn-Vue.js](https://github.com/ymiru0324/Learn-Vue.js/tree/main/Learn-Vue.js)
 * [Vue.js 시작하기](https://www.inflearn.com/course/Age-of-Vuejs)
 # [SimpleTodo-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/SimpleTodo-Vue.js)
