@@ -26,17 +26,12 @@ export default {
     props: ['propsdata'],
     methods: {
         removeTodo: function(todoItem, index) {
-            console.log(todoItem, index);
-            localStorage.removeItem(todoItem);
-            this.todoItems.splice(index, 1);
+          this.$emit('removeItem', todoItem, index);
         },
-        toggleComplete: function(todoItem) {
-            // 로컬 스토리지의 데이터를 갱신
-            todoItem.completed = !todoItem.completed;
-            localStorage.removeItem(todoItem.item);
-            localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
+        toggleComplete: function(todoItem, index) {
+          this.$emit('toggleItem', todoItem, index);
         }
-    },
+    }
 }
 </script>
 
