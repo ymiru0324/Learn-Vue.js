@@ -6,5 +6,5 @@
 * [Vue.js 중급 강좌](https://inf.run/rhGB)
 # [SimpleTodo-Vue.js](https://github.com/ymiru0324/learn-Vue.js/tree/main/SimpleTodo-Vue.js)
 * [간단한 Todo 구현](https://youtu.be/uYWhN-2IyCQ)
-
-![1](https://user-images.githubusercontent.com/81818730/147568264-21c3a04f-eabf-4140-b852-874cf0e59a30.PNG)
+# [Todo-Vue.js](https://github.com/ymiru0324/Learn-Vue/tree/main/Todo-Vue.js)
+* [프로젝트로 배우는 Vue.js](https://www.inflearn.com/course/vue-%EA%B8%B0%EC%B4%88-%EC%9D%B5%ED%9E%88%EA%B8%B0)
