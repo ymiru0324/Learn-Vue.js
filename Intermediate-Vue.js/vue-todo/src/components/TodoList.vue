@@ -1,36 +1,36 @@
 <template>
-    <div>
-      <TransitionGroup name="list" tag="ul">
-            <li 
-                v-for="(todoItem, index) in propsdata" 
-                class="shadow"
-                v-bind:key="todoItem.item"
-            >
-                <i 
-                    class="checkBtn fas fa-check"
-                    v-bind:class="{checkBtnCompleted: todoItem.completed}"
-                    v-on:click="toggleComplete(todoItem, index)"
-                >
-                </i>
-                <span v-bind:class="{textCompleted: todoItem.completed}">{{ todoItem.item }}</span>
-                <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
-                    <i class="fas fa-trash-alt"></i>
-                </span>
-            </li>
-      </TransitionGroup>
-    </div>
+  <div>
+    <TransitionGroup name="list" tag="ul">
+      <li 
+          v-for="(todoItem, index) in this.$store.state.todoItems" 
+          class="shadow"
+          v-bind:key="todoItem.item"
+      >
+          <i 
+              class="checkBtn fas fa-check"
+              v-bind:class="{checkBtnCompleted: todoItem.completed}"
+              v-on:click="toggleComplete(todoItem, index)"
+          >
+          </i>
+          <span v-bind:class="{textCompleted: todoItem.completed}">{{ todoItem.item }}</span>
+          <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
+              <i class="fas fa-trash-alt"></i>
+          </span>
+      </li>
+    </TransitionGroup>
+  </div>
 </template>
 
 <script>
 export default {
     props: ['propsdata'],
     methods: {
-        removeTodo(todoItem, index) {
-          this.$emit('removeItem', todoItem, index);
-        },
-        toggleComplete(todoItem, index) {
-          this.$emit('toggleItem', todoItem, index);
-        }
+      removeTodo(todoItem, index) {
+        this.$emit('removeItem', todoItem, index);
+      },
+      toggleComplete(todoItem, index) {
+        this.$emit('toggleItem', todoItem, index);
+      }
     }
 }
 </script>
